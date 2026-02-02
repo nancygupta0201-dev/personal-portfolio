@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <style>
+      .name-text {
+        font-family: 'Arial', 'Helvetica', sans-serif;
+        font-size: 120px;
+        font-weight: bold;
+        fill: #ffffff;
+        text-anchor: middle;
+      }
+      .surname-text {
+        font-family: 'Arial', 'Helvetica', sans-serif;
+        font-size: 120px;
+        font-weight: bold;
+        fill: #1aede6;
+        text-anchor: middle;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#000000" fill-opacity="0"/>
+  
+  <!-- Name Text -->
+  <text x="512" y="450" class="name-text">Nancy</text>
+  
+  <!-- Surname Text -->
+  <text x="512" y="600" class="surname-text">Gupta</text>
+</svg>

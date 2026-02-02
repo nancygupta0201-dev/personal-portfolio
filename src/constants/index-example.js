@@ -84,8 +84,8 @@ import { FaGolang } from "react-icons/fa6";
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
 export const resumeLink = "";
-export const callToAction = "https://www.linkedin.com/in/<your-linkedin-id>/";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const callToAction = "https://www.linkedin.com/in/nancy-gupta";
+export const repoLink = "https://github.com/nancygupta0201-dev/personal-portfolio";
 
 export const navLinks = [
   {
@@ -122,11 +122,11 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: FaRegImage,
-    title: "",
-    degree: "",
-    duration: "",
-    content1: "",
+    icon: nitk,
+    title: "National Institute of Technology Karnataka (NITK)",
+    degree: "Bachelor of Technology",
+    duration: "2025-2029",
+    content1: "Computer Science and Engineering",
     content2: "",
   },
 ];
@@ -135,16 +135,16 @@ export const educationList = [
 export const achievements = [
   {
     id: "a-1",
-    icon: FaRegImage,
-    event: "",
-    position: "",
+    icon: nitk,
+    event: "Hackula 2025",
+    position: "Special Mention",
     content1: "",
     content2: "",
     content3: "",
     article: "",
     project: "",
     youtube: "",
-    github: "",
+    github: "https://github.com/nancygupta0201-dev/Spookies_Hackula",
   },
 ];
 
@@ -158,15 +158,20 @@ export const skills = [
         icon: SiPython,
         name: "Python",
       },
-    ],
-  },
-  {
-    title: "Frameworks/Libraries",
-    items: [
       {
-        id: "f-1",
-        icon: SiDjango,
-        name: "Django",
+        id: "pl-10",
+        icon: SiC,
+        name: "C",
+      },
+      {
+        id: "pl-11",
+        icon: AiFillHtml5,
+        name: "HTML",
+      },
+      {
+        id: "pl-12",
+        icon: DiCss3,
+        name: "CSS",
       },
     ],
   },
@@ -178,11 +183,21 @@ export const skills = [
         icon: SiGit,
         name: "Git",
       },
+      {
+        id: "t-3",
+        icon: SiMysql,
+        name: "MySQL",
+      },
+      {
+        id: "t-8",
+        icon: AiFillGithub,
+        name: "GitHub",
+      },
     ],
   },
 ];
 
-// Add your current/past professional work experience here
+// // Add your current/past professional work experience here
 export const experiences = [
   {
     organisation: "",
@@ -221,17 +236,32 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
-    title: "",
-    github: "",
+    title: "Hackula 2025 - Spookies",
+    github: "https://github.com/nancygupta0201-dev/Spookies_Hackula",
     link: "",
     image: placeholder,
     content: "",
     stack: [
       {
-        id: "icon-1",
-        icon: FaRegImage,
-        name: "Placeholder",
-      }
+        id: "pl-1",
+        icon: SiPython,
+        name: "Python",
+      },
+      {
+        id: "proj1-icon-3",
+        icon: SiReact,
+        name: "React.js",
+      },
+      {
+        id: "pl-5",
+        icon: SiJavascript,
+        name: "JavaScript",
+      },
+      {
+        id: "proj3-icon-3",
+        icon: SiOpenai,
+        name: "OpenAI",
+      },
     ],
   }
 ];
@@ -306,17 +336,17 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/<your-linkedin-id>/",
+    link: "https://www.linkedin.com/in/nancy-gupta/",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/<your-github-id>/",
+    link: "https://www.github.com/nancygupta0201-dev/",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:<your-email-id>",
+    link: "mailto:nancygupta0201@gmail.com",
   },
   {
     id: "social-media-4",
@@ -326,16 +356,16 @@ export const socialMedia = [
   {
     id: "social-media-5",
     icon: AiFillInstagram,
-    link: "https://www.instagram.com/<your-instagram-id>/",
+    link: "https://www.instagram.com/nancy__gupta46/",
   },
 ];
 
 // Your professional summary
 export const aboutMe = {
-  name: "Name",
-  githubUsername: "",
-  tagLine: "",
-  intro: "",
+  name: "Nancy Gupta",
+  githubUsername: "nancygupta0201-dev",
+  tagLine: "To be a Software Engineer",
+  intro: "I'm a passionate learner.",
 };
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
