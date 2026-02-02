@@ -93,7 +93,7 @@ import { RiGeminiFill } from "react-icons/ri";
 
 export const resumeLink =
   "";
-export const callToAction = "https://www.linkedin.com/in/nancy-gupta";
+export const callToAction = "https://www.linkedin.com/in/nancy-gupta-33a610381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app";
 export const repoLink = "https://github.com/nancygupta0201-dev/personal-portfolio";
 
 export const navLinks = [
@@ -346,7 +346,7 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/nancy-gupta/",
+    link: "https://www.linkedin.com/in/nancy-gupta-33a610381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     id: "social-media-2",
